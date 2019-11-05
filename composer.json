@@ -1,0 +1,14 @@
+{
+    "name": "mangao05/laravel-itexmo",
+    "description": "This is my first package.",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeric",
+            "email": "mangao_jeric@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
