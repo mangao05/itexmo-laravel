@@ -10,5 +10,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mangao05\\Itexmo\\ItexmoServiceProvider"
+            ],
+            "aliases": {
+                "Itexmo": "Mangao05\\Itexmo\\Facades\\Itexmo"
+            }
+        }
+    }
 }
