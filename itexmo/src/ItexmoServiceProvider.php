@@ -12,6 +12,7 @@ class ItexmoServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/Config/itexmo.php' => config_path('itexmo.php'),
         ]);
+        
     }
 
     public function register()
